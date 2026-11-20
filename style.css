@@ -1,3 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 8%;
+    background: #1e293b;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+section {
+    padding: 80px 10%;
+}
+
 h1 {
-    color: blue;
+    font-size: 45px;
+    color: #38bdf8;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    margin-top: 15px;
+    color: #cbd5e1;
 }
